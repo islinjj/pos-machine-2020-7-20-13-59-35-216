@@ -118,4 +118,4 @@ A|
 
 - context map
 
-![](https://github.com/islinjj/pos-machine-2020-7-20-13-59-35-216/blob/master/context-map.png)
+![image](https://github.com/islinjj/pos-machine-2020-7-20-13-59-35-216/blob/master/context-map.png)
