@@ -117,4 +117,4 @@ C|了解了反引号的使用
 A|
 
 - context map
-![](https://github.com/islinjj/pos-machine-2020-7-20-13-59-35-216/blob/master/context-map.png)
+![](https://github.com/islinjj/pos-machine-2020-7-20-13-59-35-216/blob/master/context-map.png);
