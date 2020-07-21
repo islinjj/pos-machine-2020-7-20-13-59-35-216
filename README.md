@@ -78,43 +78,43 @@ getCartItemAmount|    |
 -----------------|:--:
 P|5min
 D|9min
-C|简单的逻辑问题
-A|加强逻辑训练
+C|Simple logical question
+A|Strengthen logic training
 
 getItemInfo|         |
 -----------------|:--:
 P|4min
 D|9min
-C|部分js的方法旧没有使用了，有些生疏
-A|复习js语法
+C|Some js methods have not been used for a long time
+A|Review js syntax
 
 calculateItemTotalPrice|         |
 -----------------|:--:
-P|4min
-D|3min
-C|简单的计算赋值问题
-A|
+P|2min
+D|2min
+C|Simple calculation and assignment problem
+A|none
 
 calculateTotalPrice|         |
 -----------------|:--:
 P|1min
 D|2min
-C|加减运算问题
-A|
+C|Addition and subtraction problem
+A|none
 
 formatReceipt|         |
 -----------------|:--:
 P|2min
 D|7min
-C|不熟悉反引号的使用
-A|学习js反引号的使用
+C|Not familiar with the use of backticks
+A|Learn the use of js backticks
 
 formatReceiptLine|         |
 -----------------|:--:
 P|1min
 D|1min
-C|了解了反引号的使用
-A|
+C|Simple format
+A|none
 
 - context map
 
