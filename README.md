@@ -70,3 +70,49 @@ Suppose that our database is as follows:
 2. Please declare all the methods according to your diagram.
 3. Please implement the function according to the context diagram
 4. Please repeat step 3 until all functions are implemented.
+
+# Homework
+- PDCA
+getCartItemAmount|    |
+-----------------|:--:
+P|5min
+D|9min
+C|简单的逻辑问题
+A|加强逻辑训练
+
+getItemInfo|         |
+-----------------|:--:
+P|4min
+D|9min
+C|部分js的方法旧没有使用了，有些生疏
+A|复习js语法
+
+calculateItemTotalPrice|         |
+-----------------|:--:
+P|4min
+D|3min
+C|简单的计算赋值问题
+A|
+
+calculateTotalPrice|         |
+-----------------|:--:
+P|1min
+D|2min
+C|加减运算问题
+A|
+
+formatReceipt|         |
+-----------------|:--:
+P|2min
+D|7min
+C|不熟悉反引号的使用
+A|学习js反引号的使用
+
+formatReceiptLine|         |
+-----------------|:--:
+P|1min
+D|1min
+C|了解了反引号的使用
+A|
+
+- context map
