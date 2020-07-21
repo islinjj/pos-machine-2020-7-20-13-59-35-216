@@ -73,6 +73,7 @@ Suppose that our database is as follows:
 
 # Homework
 - PDCA
+
 getCartItemAmount|    |
 -----------------|:--:
 P|5min
