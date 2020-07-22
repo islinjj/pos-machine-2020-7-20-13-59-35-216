@@ -72,7 +72,7 @@ Suppose that our database is as follows:
 4. Please repeat step 3 until all functions are implemented.
 
 # Homework
-- PDCA
+### PDCA
 
 getCartItemAmount|    |
 -----------------|:--:
@@ -116,6 +116,29 @@ D|1min
 C|Simple format
 A|none
 
-- context map
+### tasking  
+- 1、获取item的数量 getCartItemAmount
+   - 输入:cartItems:[itemCode:string]
+   - 输出:cartItemAmount:{itemCode:int}
+- 2、获取item的详细信息 getItemInfo
+   - 输入:cartItemAmount:{itemCode:int}
+   - 输出:cartItemDetails:[{itemCode:string,itemName:string,quantity:int,unitPrice:int}]
+- 3、计算每个item的总价 calculateItemTotalPrice
+   - 输入:cartItemDetails:[{itemCode:string,itemName:string,quantity:int,unitPrice:int}]
+   - 输出:cartItemDetailsWithTotalPrice:[{itemCode:string,itemName:string,quantity:int,unitPrice:int,subTotalPrice}]
+- 4、计算所有商品的总价 calculateTotalPrice
+   - 输入:cartItemDetailsWithTotalPrice:[{itemCode:string,itemName:string,quantity:int,unitPrice:int,subTotalPrice}]
+   - 输出:totalPrice:int
+- 5、格式化单行票据 formatReceiptLine
+   - 输入:cartItemDetailsWithTotalPrice:[{itemCode:string,itemName:string,quantity:int,unitPrice:int,subTotalPrice}]
+   - 输出:string
+- 6、格式化全部票据 formatReceipt
+   - 输入:cartItemDetailsWithTotalPrice:[{itemCode:string,itemName:string,quantity:int,unitPrice:int,subTotalPrice}]，totalPrice:int
+   - 输出:formatReciept:string
+- 7、打印数据
+   - 输入:formatReciept:string
+   - 输出:string
+
+### context map
 
 ![image](https://github.com/islinjj/pos-machine-2020-7-20-13-59-35-216/blob/master/context-map.png)
