@@ -45,7 +45,7 @@ function getDatas() {
 }
 
 function printReceipt(barcodes) {//2m 3m
-    let cartItemAmount = getCartItemAmount(cartItems);
+    let cartItemAmount = getCartItemAmount(barcodes);
     let itemInfo = getItemInfo(cartItemAmount);
     let itemTotalPrice = calculateItemTotalPrice(itemInfo);
     let totalPrice = calculateTotalPrice(itemTotalPrice);
@@ -102,7 +102,8 @@ function formatReceipt(cartItemDetailsWithTotalPrice,totalPrice) {//2m 7m
             itemDetail += `\n`;
         }
     });
-    receipt += `***<store earning no money>Receipt ***
+    receipt += `
+***<store earning no money>Receipt ***
 ${itemDetail}
 ----------------------
 Total: ${totalPrice} (yuan)
